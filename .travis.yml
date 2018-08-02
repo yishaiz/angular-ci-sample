@@ -39,7 +39,7 @@ script:
 - ng lint
 - ng test --watch=false
 #- ng build --prod
-- ng test --code-coverage
+- ng test --watch=false --code-coverage
 after_success:
 
 notifications:
