@@ -4,3 +4,6 @@ node_js:
   - "10"
 install:
   - npm install @angular/cli
+sudo: required
+addons:
+  chrome: stable
