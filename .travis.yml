@@ -38,7 +38,7 @@ script:
 #- ng lint --typeCheck
 - ng lint
 - ng test --watch=false
-- ng build --prod
+#- ng build --prod
 
 after_success:
 
